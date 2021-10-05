@@ -11,5 +11,7 @@ fun main(){                   //Executes in main thread
         println("Fake work ends: ${Thread.currentThread().name}")
     }
 
+    Thread.sleep(2000)
+
     println("Main program ends: ${Thread.currentThread().name}")
 }
